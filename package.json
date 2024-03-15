@@ -1,0 +1,28 @@
+{
+  "name": "super-api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+   
+    "test": "mocha 'test/**/*.js' --timeout 5000 --reporter mochawesome",
+    "test:smoke": "mocha 'test/smoke/*.js' --timeout 5000 --reporter mochawesome",
+    "test:regression": "mocha 'test/regression/*.js' --timeout 5000 --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/register": "^7.23.7",
+    "chai": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "mocha": "^10.3.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.4"
+  }
+}
