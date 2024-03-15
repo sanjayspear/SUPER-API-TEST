@@ -1,0 +1,2 @@
+# SUPER-API-TEST
+API Test Automation using SUPER-API-TEST (WDIO-JAVASCRIPT)
